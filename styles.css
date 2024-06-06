@@ -194,3 +194,219 @@ footer{
   #feature {
     background-color: darkgray;
   }
+
+ /* Media query for iPad screen size */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    body {
+        padding: 0;
+        margin: 0;
+        font-size: 18px;
+    }
+
+    header {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .cover img {
+        width: 100%;
+        height: auto;
+    }
+
+    .intro-text {
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+    }
+
+    .intro-text h1 {
+        font-size: 2.5em;
+        margin: 0.3em 0;
+    }
+
+    .intro-text p {
+        font-size: 1.5em;
+        margin: 0.3em 0;
+    }
+
+    nav ul li a {
+        font-size: 1.8em;
+    }
+
+    .button {
+        font-size: 1.2em;
+        padding: 0.6em 1.2em;
+        margin-top: 0.8em;
+    }
+
+    .features-section, .about-section {
+        padding: 2em;
+        text-align: center;
+    }
+
+    .features-section h2, .about-section h2 {
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+
+    .feature {
+        display: inline-block;
+        width: 45%;
+        margin: 1em 2%;
+    }
+
+    .feature img {
+        width: 100%;
+        height: auto;
+    }
+
+    .feature h3 {
+        font-size: 1.5em;
+        margin: 0.5em 0;
+    }
+
+    .feature p {
+        font-size: 1.1em;
+    }
+
+    .video-section video {
+        width: 100%;
+        height: auto;
+    }
+
+    .video-section h3 {
+        font-size: 1.5em;
+        padding-top: 0.5em;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 1em;
+        background-color: grey;
+    }
+
+    footer .col {
+        flex: 1;
+        margin: 1em;
+        text-align: left;
+    }
+
+    footer h4 {
+        font-size: 1.5em;
+    }
+
+    footer p, footer a {
+        font-size: 1em;
+    }
+
+    footer .copyright p {
+        font-size: 1em;
+    }
+}
+
+/* Media query for iPhone X screen size */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: portrait) {
+    body {
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+    }
+
+    header {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .cover img {
+        width: 100%;
+        height: auto;
+    }
+
+    .intro-text {
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+    }
+
+    .intro-text h1 {
+        font-size: 2em;
+        margin: 0.5em 0;
+    }
+
+    .intro-text p {
+        font-size: 1.2em;
+        margin: 0.5em 0;
+    }
+
+    nav ul li a {
+        font-size: 1.5em;
+    }
+
+    .button {
+        font-size: 1em;
+        padding: 0.4em 0.8em;
+        margin-top: 0.5em;
+    }
+
+    .features-section, .about-section {
+        padding: 1em;
+        text-align: center;
+    }
+
+    .features-section h2, .about-section h2 {
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .feature {
+        display: block;
+        width: 80%;
+        margin: 1em auto;
+    }
+
+    .feature h3 {
+        font-size: 1.2em;
+        margin: 0.5em 0;
+    }
+
+    .feature p {
+        font-size: 0.9em;
+    }
+
+    .video-section video {
+        width: 100%;
+        height: auto;
+    }
+
+    .video-section h3 {
+        font-size: 1.2em;
+        padding-top: 0.5em;
+    }
+
+    footer {
+        display: block;
+        text-align: center;
+        padding: 1em;
+        background-color: grey;
+    }
+
+    footer .col {
+        display: block;
+        margin: 1em 0;
+    }
+
+    footer h4 {
+        font-size: 1.2em;
+    }
+
+    footer p, footer a {
+        font-size: 0.9em;
+    }
+
+    footer .copyright p {
+        font-size: 0.8em;
+    }
+}
+
